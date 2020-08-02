@@ -27,8 +27,13 @@ public class BulkOperations_Practice {
 
         ArrayList<String> group1=new ArrayList<>();
         // add all students name in your  group
-        group1.addAll(Arrays.asList("ali","mehmet","zati"));
+        group1.addAll(Arrays.asList("ali","mehmet","zati","Murodil", "Kuzzat"));
+
+        // verify your mentor and one of your closest friend' names are contained in the list
+        boolean r4=group1.containsAll( Arrays.asList("Murodil", "Kuzzat") );
+
         System.out.println(group1);
+        System.out.println(r4);
 
 
 
