@@ -1,15 +1,17 @@
 package day37_ArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class FrequencyOfChars {
     public static void main(String[] args) {
         String str = "AABBCDDEF";
         ArrayList<String> list = new ArrayList<>();
-        for (String each : str.split("")) {
+        list.addAll(Arrays.asList(str.split("")));
+       /* for (String each : str.split("")) {
             list.add(each);
-        }
+        }*/
         System.out.println(list);
         String str1="";
         for (String each : list) {

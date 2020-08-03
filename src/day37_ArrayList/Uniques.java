@@ -9,6 +9,7 @@ package day37_ArrayList;
          output: A2B2C2D2E2*/
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 
@@ -16,9 +17,10 @@ public class Uniques {
     public static void main(String[] args) {
         String str="AABBCDDEF";
         ArrayList<String> list=new ArrayList<>();
-        for(String each:str.split("")){
+        list.addAll(Arrays.asList(str.split("")));
+       /* for(String each:str.split("")){
             list.add(each);
-        }
+        }*/
         System.out.println(list);
         for (String each:list){
         //for (int i = 0; i <list.size() ; i++) {

@@ -1,5 +1,6 @@
 package Java_Interview;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -67,6 +68,19 @@ public class Cyber_FindUnique {
 
 
         return result;
+
+    }
+    public static ArrayList<Integer> Unique(int str) {
+
+        ArrayList<Integer> unique = new ArrayList<>();
+        unique.addAll(Arrays.asList(1, 1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 9, 7, 5));
+
+        unique.removeIf(p -> Collections.frequency(unique, p) != 1); // these  are not unique elements
+        // will  be  removed  from  list
+
+        System.out.println(unique);
+        return unique;
+
 
     }
 }
