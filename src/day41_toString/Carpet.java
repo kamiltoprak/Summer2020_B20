@@ -1,4 +1,4 @@
-package day41_Static;
+package day41_toString;
 /*instance variables:
         width, length, unitPrice, isPersian (boolean)
         instance methods:
@@ -39,13 +39,18 @@ public class Carpet {
 
     public void getCarpetInfo(){
         System.out.println("===========================");
-        System.out.println("Carpet Width: "+this.width);
-        System.out.println("Carpet length: "+this.length);
-        System.out.println("Carpet is Persion: "+this.isPersian);
-        System.out.println("Carpet unit Price: "+this.unitPrice);
+        System.out.println("Carpet Width: "+width);
+        System.out.println("Carpet length: "+length);
+        System.out.println("Carpet is Persion: "+isPersian);
+        System.out.println("Carpet unit Price: "+unitPrice);
         System.out.println("Carpet total Price: "+calcCost());
         System.out.println("===========================");
 
+
+    }
+
+    public String toString(){
+        return "width : " + width+ "length: "+length+" persian: "+isPersian;
 
     }
 

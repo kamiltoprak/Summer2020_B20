@@ -1,4 +1,4 @@
-package day41_Static;
+package day41_toString;
 
 import java.util.ArrayList;
 
@@ -20,9 +20,15 @@ public class CarpetObjects {
         ArrayList<Carpet> regularCarpets=new ArrayList<>();
 
         for (int i = 0; i < carpets.length; i++) {
-
-
+            if(carpets[i].isPersian){
+                persianCarpets.add(carpets[i]);
+            }else{
+                regularCarpets.add(carpets[i]);
+            }
         }
+
+        System.out.println("Number of  persion  carpet: "+ persianCarpets.size());
+        System.out.println("Number of  regular  carpet: "+ regularCarpets.size());
 
     }
 
