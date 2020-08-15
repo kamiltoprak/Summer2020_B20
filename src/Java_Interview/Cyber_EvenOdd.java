@@ -1,4 +1,4 @@
-package Java_Interview;
+package java_Interview;
 /*Write  a method which can identifies given number is even or odd
 
         EX:

@@ -1,4 +1,5 @@
 package Library;
+//import org.apache.commons.mail.SimpleEmail;
 
 import java.util.Arrays;
 
@@ -533,9 +534,6 @@ public class Util {
         return arr3;
     }
     // combines two double array and returns it
-
-
-
 
 
 

@@ -1,4 +1,4 @@
-package Java_Interview;
+package java_Interview;
 import java.util.*;
 
 public class Cyber_FrequencyOfChart {

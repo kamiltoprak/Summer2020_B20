@@ -1,4 +1,4 @@
-package Java_Interview;
+package java_Interview;
 /*Find first non-duplicate letter in a given string.
         Ex: String = “testoftest” -----> output: o. Note: Cozumlerinizi lutfen
         thread kisinda yaziniz.*/

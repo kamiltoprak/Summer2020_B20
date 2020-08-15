@@ -1,4 +1,4 @@
-package Java_Interview;
+package java_Interview;
 
 public class SudokuCheck {
     public static void main(String[] args) {
@@ -14,9 +14,13 @@ public class SudokuCheck {
 
         int count = 0;
         int n = 2;
-
+      
         for (int i = 0; i < n * n; i++) {
             for (int j = 0; j < n * n; j++) {
+                if(sudoku[i][j] > n * n) {
+                    System.out.println("NO");
+                    System.exit(0);
+                }
                 count = 0;
                 int a = sudoku[i][j];
                 for (int k = 0; k < n * n; k++) {
@@ -461,6 +465,7 @@ public class SudokuCheck {
 
         }
         System.out.println("True");*/
+
             }
         }
         System.out.println("=================================");

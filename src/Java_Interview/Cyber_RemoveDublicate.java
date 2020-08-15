@@ -1,4 +1,4 @@
-package Java_Interview;
+package java_Interview;
 /*Write a return method that can remove the duplicated values from String
 
         Ex:  removeDup("AAABBBCCC")  ==> ABC*/

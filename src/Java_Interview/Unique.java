@@ -1,4 +1,4 @@
-package Java_Interview;
+package java_Interview;
 /*Write a return metod that can remove the duplicated values from String.
         (biz daha method’lari islemedigimiz icin soruyu soyle ceviriyoruz:
         Write a program that can remove the duplicated values from String)*/

@@ -1,4 +1,4 @@
-package Java_Interview;
+package java_Interview;
 /*Write a return method that can
         find the frequency of characters in a string .
         Ex: String= “AAABBCDD”---->output:A3B2C1D2.*/

@@ -1,10 +1,5 @@
 package day31_Recap;
 import Library.Util;
-import Library.Util.*;
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.Arrays;
 
 public class FrequencyOfCharacters {
     public static void main(String[] args) {

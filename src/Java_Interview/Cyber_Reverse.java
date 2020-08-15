@@ -1,6 +1,4 @@
-package Java_Interview;
-
-import java.util.Arrays;
+package java_Interview;
 
 public class Cyber_Reverse {
     public static void main(String[] args) {

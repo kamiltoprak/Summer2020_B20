@@ -1,4 +1,4 @@
-package JetBrains;
+package jetBrains;
 import java.util.Scanner;
 
 public class CoffeeShop {

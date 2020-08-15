@@ -1,4 +1,4 @@
-package Java_Interview;
+package java_Interview;
 //Write a return method that can concate two arrays
 import java.util.Arrays;
 

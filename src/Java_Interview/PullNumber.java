@@ -1,4 +1,4 @@
-package Java_Interview;
+package java_Interview;
 //  word: dsdsds4fdf4jk53 => 4453
 import java.util.Scanner;
 

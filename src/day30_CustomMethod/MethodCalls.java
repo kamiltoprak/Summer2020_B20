@@ -1,6 +1,5 @@
 package day30_CustomMethod;
 import Library.Util;
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 public class MethodCalls {
     public static void main(String[] args) {

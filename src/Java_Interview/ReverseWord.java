@@ -1,4 +1,4 @@
-package Java_Interview;
+package java_Interview;
 //Write a return method that can reverse String. Ex: String=“ABCD”----> output: DCBA.
 import java.util.*;
 public class ReverseWord {
