@@ -13,14 +13,12 @@ public class Tester {
     boolean creatingTicket;
     boolean automating;
 
-    public  void setEmployeeInfo(String name,char gender,int ssn, String ID, String job,String title,double empSalary, String company,int bug,boolean standup,boolean ticket,boolean automation) {
+    public  void setEmployeeInfo(String name,char gender,int ssn, String ID) {
         employeeName=name;
         employeeGender=gender;
         SSN=ssn;
         employeeID=ID;
-        jobTitle=title;
-        salary=empSalary;
-        companyName=company;
+
     }
 
     public  void findingBug() {
